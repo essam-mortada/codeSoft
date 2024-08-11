@@ -49,7 +49,7 @@
         <nav id="navmenu" class="navmenu">
           <ul>
 
-            <li><a href="{{route('community')}}">community</a></li>
+            <li><a href="{{route('community')}}">home</a></li>
             <li><a href="{{route('users.show',Auth::user()->id)}}">profile</a></li>
             <li class="dropdown"><a href="#"> <i style="font-size: 25px" class="bi bi-person-fill"></i></a>
                 <ul>
